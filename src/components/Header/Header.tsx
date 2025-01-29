@@ -44,7 +44,7 @@ const Header = () => {
           <span className="mr-4">{user.login}</span>
           <button
             onClick={handleLogout}
-            className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600"
+            className="bg-black text-white px-4 py-2 rounded-md"
           >
             Выйти
           </button>
